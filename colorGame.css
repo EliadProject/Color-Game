@@ -1,0 +1,79 @@
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	color:white;
+	background-color:black;
+}
+
+.header-background {
+	 background-color: rgb(102, 140, 255) !important;
+	
+}
+
+#header h3 {
+	font-size: 2em;
+}
+#header h1 {
+	font-size: 3.5em;
+	font-weight: 500;
+	letter-spacing:1px;
+}
+.secondary-header 
+{
+	background-color: white;
+}
+
+
+.secondary-header button {
+	border:0;
+	height: 100%;
+	background-color: white;
+	color: rgb(102, 140, 255);
+	letter-spacing:1px;
+	font-size:1.1em;
+	font-weight: 600;
+	outline-width: 0;
+	transition: all 1s;
+}
+
+
+
+.secondary-header span {
+	color: rgb(102, 140, 255);
+	height: 100%;
+	letter-spacing:1px;
+	font-size:1em;
+	font-weight: 400;
+	width: 20%;
+
+}
+
+.block {
+	border-radius: 30px;
+	width: 30%;
+	padding-bottom: 30%;
+	float:left;
+	margin: 1.66%;
+	transition: background 0.6s;
+}
+
+#container {
+	margin: 10px auto;
+	max-width: 600px;
+}
+
+.rowGame {
+	height: 200px;
+}
+
+.buttonHoverd{
+	transition: background 200ms !important; 
+	background-color:  rgb(102, 140, 255) !important;
+	color: white !important;
+	
+}
+
+.wrong {
+	transition: background 500ms !important; 
+	background-color:  black !important;
+}
+
